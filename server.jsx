@@ -44,6 +44,6 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(io, () => {
+server.listen(5000, () => {
   console.log("Server is running on port 5000");
 });
