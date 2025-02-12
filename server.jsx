@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://chat-app-frontend-eight-dusky.vercel.app/", // Update if frontend is hosted elsewhere
+    origin: "https://chat-app-frontend-eight-dusky.vercel.app", // Update if frontend is hosted elsewhere
     methods: ["GET", "POST"],
   },
 });
